@@ -6,7 +6,7 @@ public class PyramidpatternStar {
     public static void main(String[] args) {
         int i,j,row;
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter row number:\n");
+        System.out.print("Enter row number:");
         row=sc.nextInt();
         for(i=0;i<=row;i++)
         {
@@ -18,7 +18,7 @@ public class PyramidpatternStar {
           {
             System.out.print("* ");
           }
-          System.out.println(" ");
+          System.out.println("\n");
         }
         
     }

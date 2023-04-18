@@ -8,7 +8,7 @@ public class LeftPatternStar {
 
         int i,j, row;
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter row number:\n");
+        System.out.print("Enter row number:");
         row=sc.nextInt();
         for(i=0;i<=row;i++)
         {
