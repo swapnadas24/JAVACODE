@@ -1,4 +1,4 @@
-package com.javacode.practice;
+package com.javacode.practice.basic;
 
 import java.util.Scanner;
 

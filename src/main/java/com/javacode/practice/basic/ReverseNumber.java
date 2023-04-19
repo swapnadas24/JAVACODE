@@ -1,4 +1,4 @@
-package com.javacode.practice;
+package com.javacode.practice.basic;
 public class ReverseNumber {
 
 public static void main(String[] args) {

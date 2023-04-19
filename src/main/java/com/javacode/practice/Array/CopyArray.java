@@ -1,4 +1,4 @@
-package com.javacode.practice;
+package com.javacode.practice.Array;
 
 public class CopyArray {
 
