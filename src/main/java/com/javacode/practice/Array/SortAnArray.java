@@ -1,7 +1,6 @@
 package com.javacode.practice.Array;
 
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 
 public class SortAnArray{

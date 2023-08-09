@@ -1,7 +1,5 @@
 package com.javacode.practice.basic;
 
-import java.util.Scanner;
-
 public class EvenNumber {
     public static void main(String[] args) {
         
