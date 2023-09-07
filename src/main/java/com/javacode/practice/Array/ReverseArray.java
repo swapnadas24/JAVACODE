@@ -1,11 +1,9 @@
 package com.javacode.practice.Array;
 
 public class ReverseArray {
-    
     //to print the elements of an array in reverse order
-
     public static void main(String[] args) {
-       
+
     int[]arr = new int[]{1,2,3,4,5};
     System.out.println("Original array is:");
     for(int i=0;i<arr.length;i++)
@@ -19,6 +17,5 @@ public class ReverseArray {
         {
             System.out.print(" "+arr[j]);
         }
-        
-    }    
+    }
 }

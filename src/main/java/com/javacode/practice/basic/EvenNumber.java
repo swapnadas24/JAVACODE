@@ -2,7 +2,7 @@ package com.javacode.practice.basic;
 
 public class EvenNumber {
     public static void main(String[] args) {
-        
+
         int i,count=100;
         for(i=1;i<=count;i++)
         {
@@ -10,10 +10,10 @@ public class EvenNumber {
             {
                 System.out.print(i+" ");
             }
-        }     
+        }
 
 
-        /* 
+        /*
     int number;
     Scanner sc=new Scanner(System.in);
     System.out.print("Enter number:\n");
@@ -27,7 +27,7 @@ public class EvenNumber {
             {
                 System.out.print(number+ ":is not even number");
             }      */
-                
-    }  
+
+    }
 
 }

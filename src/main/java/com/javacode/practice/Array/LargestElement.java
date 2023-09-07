@@ -11,7 +11,7 @@ public static void main(String[] args) {
         {
         if(arr[i]>max)
         max=arr[i];
-        }   
+        }
         System.out.print("Largest element:"+max); 
 }
     

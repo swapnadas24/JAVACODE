@@ -12,10 +12,9 @@ public class DuplicateArray {
             {
                 if(arr[i]==arr[j])
                 {
-                 System.out.print(arr[j]+" ");
+                System.out.print(arr[j]+" ");
                 }
             }
         }
-        
     }
 }

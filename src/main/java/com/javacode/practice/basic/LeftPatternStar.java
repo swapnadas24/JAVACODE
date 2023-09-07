@@ -3,7 +3,6 @@ package com.javacode.practice.basic;
 import java.util.Scanner;
 
 public class LeftPatternStar {
-    
     public static void main(String[] args) {
 
         int i,j, row;
@@ -14,13 +13,9 @@ public class LeftPatternStar {
         {
             for(j=0;j<=i;j++)
             {
-              System.out.print("* ");
+            System.out.print("* ");
             }
             System.out.println("\n");
-
         }
-    
-        
-        
     }
 }

@@ -20,7 +20,7 @@ public static void main(String[] args) {
    reminder=number%10;
    reverse=reverse*10+reminder;
  }
- System.out.print("Reverse number is:"+reverse);
+  System.out.print("Reverse number is:"+reverse);
 }
-    
+
 }

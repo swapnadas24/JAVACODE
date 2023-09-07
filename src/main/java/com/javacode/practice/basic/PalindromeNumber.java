@@ -1,9 +1,9 @@
 package com.javacode.practice.basic;
 
-public class PalindromNumber {
+public class PalindromeNumber {
 
     public static void main(String[] args) {
-        
+
         int reminder,sum=0,temp;
         int number=525;
         temp=number;
@@ -14,11 +14,10 @@ public class PalindromNumber {
         }
         if(temp==sum)
         {
-        System.out.print("PalendromNumber is:"+sum);
+        System.out.print("PalindromeNumber is:"+sum);
         }else
         {
-            System.out.print("PalendromNumber is not:"+sum);
+            System.out.print("PalindromeNumber is not:"+sum);
         }
     }
-    
 }

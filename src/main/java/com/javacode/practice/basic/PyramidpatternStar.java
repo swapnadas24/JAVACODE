@@ -12,7 +12,7 @@ public class PyramidpatternStar {
         {
           for(j=row-i;j>=0;j--)
           {
-             System.out.print(" ");
+            System.out.print(" ");
           }
           for(j=0;j<=i;j++)
           {
@@ -20,7 +20,5 @@ public class PyramidpatternStar {
           }
           System.out.println("\n");
         }
-        
     }
-    
 }
