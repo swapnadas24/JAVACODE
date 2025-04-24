@@ -4,8 +4,8 @@ public class DuplicateCharsInString {
 
     public static void main(String[] args) {
 
-        String x = "Swapnnamudra Das";
-        char x1[] = x.toCharArray();
+        String x = "Swapnnamudra dDas";
+        char x1[] = x.toLowerCase().toCharArray();
 
         int count;
         System.out.println("Duplaicate chars:  ");
