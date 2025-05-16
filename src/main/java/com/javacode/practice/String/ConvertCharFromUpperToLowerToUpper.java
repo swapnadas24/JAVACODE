@@ -7,7 +7,7 @@ public class ConvertCharFromUpperToLowerToUpper {
         String x = "sjhddjshjAHJSHFJHSJ";
         StringBuffer x1 = new StringBuffer(x);
 
-        for (int i = 0; i < x.length(); i++) {
+        for (int i = 0; i < x1.length(); i++) {
 
             if (Character.isLowerCase(x.charAt(i))) {
 

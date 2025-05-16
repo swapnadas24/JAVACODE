@@ -19,9 +19,9 @@ public class DuplicateCharsInString {
                     x1[j] = '0';
                 }
             }
-            if (count > 1 && x1[i] != '0') {
+            if (count > 1 && x1[i] != 0) {
 
-                System.out.println(x1[i]);
+                System.out.println(x1[i] + ":" + count);
 
             }
         }

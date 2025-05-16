@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class NumbersPattern {
     public static void main(String[] args) {
-        int i, j, rows = 8;
+        int i, j, rows;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter numbers:");
         rows = sc.nextInt();

@@ -14,9 +14,11 @@ public class ArmstrongNumber {
             count += rem * rem * rem;
             n = n / 10;
         }
-
-        System.out.println(count + " is Armstrong Number");
-
+        if (n == count) {
+            System.out.println(count + " is Armstrong Number");
+        } else {
+            System.out.println(count + " is not Armstrong Number");
+        }
     }
 
 }
