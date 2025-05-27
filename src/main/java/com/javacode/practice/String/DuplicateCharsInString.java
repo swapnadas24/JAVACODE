@@ -4,7 +4,7 @@ public class DuplicateCharsInString {
 
     public static void main(String[] args) {
 
-        String x = "Swapnnamudra dDas";
+        String x = "Swapnnamudra dDas1111222333";
         char x1[] = x.toLowerCase().toCharArray();
 
         int count;
@@ -16,7 +16,7 @@ public class DuplicateCharsInString {
 
                 if (x1[i] == x1[j] && x1[i] != ' ') {
                     count++;
-                    x1[j] = '0';
+                    x1[j] = 0;
                 }
             }
             if (count > 1 && x1[i] != 0) {

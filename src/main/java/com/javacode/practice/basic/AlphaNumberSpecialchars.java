@@ -1,6 +1,6 @@
-package com.javacode.interviewQuestions;
+package com.javacode.practice.basic;
 
-public class Test {
+public class AlphaNumberSpecialchars {
 
     public static void main(String[] args) {
 
