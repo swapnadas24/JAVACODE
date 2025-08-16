@@ -1,6 +1,6 @@
-package com.javacode.practice.basic;
+package com.javacode.practice.String;
 
-public class AlphaNumberSpecialchars {
+public class AlphaDigitSpecialchars {
 
     public static void main(String[] args) {
 

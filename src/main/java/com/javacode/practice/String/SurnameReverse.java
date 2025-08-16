@@ -1,4 +1,4 @@
-package com.javacode.practice.basic;
+package com.javacode.practice.String;
 
 public class SurnameReverse {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class SurnameReverse {
             ch = s2[1].charAt(i);
             strrev = ch + strrev;
 
-            s3 = Character.toUpperCase(strrev.charAt(i)) + strrev.substring(1).toLowerCase();
+            s3 = Character.toUpperCase(strrev.charAt(0)) + strrev.substring(1).toLowerCase();
         }
         System.out.println(s2[0] + " " + s3);
     }

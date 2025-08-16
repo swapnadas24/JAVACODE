@@ -4,28 +4,21 @@ public class Test {
 
     public static void main(String[] args) {
 
-        String s = "ab#4h&%*678";
+        String x = "Swapna Das";
 
-        StringBuilder alphabet = new StringBuilder();
-        StringBuilder number = new StringBuilder();
-        StringBuilder chars = new StringBuilder();
+        String x1[] = x.split(" ");
+        String x2 = " ";
+        char ch;
+        String rev = "";
 
-        for (char ch : s.toCharArray()) {
+        for (int i = 0; i < x1[1].length(); i++) {
 
-            if (Character.isLetter(ch)) {
+            ch = x1[1].charAt(i);
 
-                alphabet.append(ch);
-            } else if (Character.isDigit(ch)) {
+            rev = ch + rev;
 
-                number.append(ch);
-            } else if ("#&%*".indexOf(ch) >= 0) {
-
-                chars.append(ch);
-            }
+            x2 = Character.toUpperCase(rev.charAt(0)) + rev.substring(1).toLowerCase();
         }
-
-        System.out.println(alphabet);
-        System.out.println(number);
-        System.out.println(chars);
+        System.out.println(x1[0] + " " + x2);
     }
 }

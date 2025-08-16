@@ -1,4 +1,4 @@
-package com.javacode.practice.basic;
+package com.javacode.practice.String;
 
 public class ReveseCharsInOddWay {
 
